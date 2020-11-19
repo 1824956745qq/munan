@@ -1,0 +1,399 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* page不能写带scope的style标签中，否则无效 */
+page {
+	background-color: #f8f8f8;
+	
+	  width: 100%;
+	  height:100%;
+}
+
+
+.main-scroll{
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  top: 0;
+	  bottom: 0;
+}
+.quanju{
+		
+		display: -webkit-box;
+		
+		display: -webkit-flex;
+		
+		display: flex;
+		  -webkit-box-orient: vertical;
+		  -webkit-box-direction: normal;
+		  -webkit-flex-direction: column;
+		          flex-direction: column;
+		   width: 100%;
+		    height:100%;
+}
+.zhongjian{
+			-webkit-box-flex: 1;
+			-webkit-flex: 1;
+			        flex: 1;
+
+ position: relative;
+}
+.goutop{
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		padding-left: 15rpx;
+		background-color: #FFFFFF;
+		line-height: 100rpx;
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 100rpx;
+		        flex: 0 0 100rpx; /* 不放大不缩小固定100rpx */
+}
+.goutuop1{
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		color: #AAAAAA;
+}
+.liebiao{
+			background-color:#FFFFFF;
+			margin-left: 20rpx;
+			margin-right: 20rpx;
+			margin-top: 30rpx;
+			padding-bottom: 30rpx;
+			border-radius: 6rpx;
+}
+.ubuttonaa{
+				  width: 270rpx;
+				height: 30rpx;
+				line-height: 30rpx;
+				font-size: 25rpx;
+			white-space: nowrap;/*内容超宽后禁止换行显示*/
+							
+			overflow: hidden;/*超出部分隐藏*/
+							
+			text-overflow:ellipsis;
+				margin-top: 10rpx;
+}
+.ubuttonaa text{
+				
+					padding: 0 5rpx;
+					border-radius: 5rpx;
+}
+.liebiaotop{
+				height: 90rpx;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				        align-items: center;
+				padding-left: 20rpx;
+}
+.liebiaoln{
+					-webkit-box-align: center;
+					-webkit-align-items: center;
+					        align-items: center;
+					margin-top: 35rpx;
+					padding-left: 20rpx;
+}
+.liebiaoln image{
+						width: 200rpx;
+						height: 200rpx;
+}
+.liebiaolnleft{
+						width: 330rpx;
+						margin-left: 20rpx;
+						font-size: 20rpx;
+}
+.liebiaolnlefttext {
+						display: block;
+						overflow :   hidden ;
+						 text-overflow :   ellipsis ; 
+						display :   -webkit-box ;
+						 -webkit-line-clamp :   2 ; 
+						-webkit-box-orient :   vertical ;
+									
+						overflow: hidden;
+						text-overflow: ellipsis;				
+							webkit-line-clamp:2; 
+						margin-bottom: 20rpx;
+}
+.liebiaolnleftbutton{
+					margin-top: 10rpx;
+	font-weight: bold;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	
+					color:#FF9900;
+}
+.goubuttom{
+						-webkit-box-flex: 0;
+						-webkit-flex: 0 0 100rpx;
+						        flex: 0 0 100rpx; 
+					padding-left: 20rpx;
+						-webkit-box-align: center;
+						-webkit-align-items: center;
+						        align-items: center;
+						-webkit-box-pack: justify;
+						-webkit-justify-content: space-between;
+						        justify-content: space-between;
+						background-color: #FFFFFF;
+}
+.goubuttomrigh{
+							height: 110rpx;
+							margin-left: 20rpx;
+							line-height: 110rpx;
+							color: #FFFFFF;
+							padding: 0 28rpx;
+						background-color: red;
+}
+					
+						
+

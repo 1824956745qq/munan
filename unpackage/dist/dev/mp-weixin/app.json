@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/zy/index",
+    "pages/gouwuce/index",
+    "pages/fenlei/index",
+    "pages/wode/index",
+    "pages/shangpinglie/index",
+    "pages/xiangqing/index",
+    "pages/dianpu/index",
+    "pages/cs/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#d3d3d3"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#7A7E83",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/zy/index",
+        "iconPath": "static/imga/sybb.png",
+        "selectedIconPath": "static/imga/syaa.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/fenlei/index",
+        "iconPath": "static/imga/fengleibb.png",
+        "selectedIconPath": "static/imga/fengleiaa.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/gouwuce/index",
+        "iconPath": "static/imga/gwcbb.png",
+        "selectedIconPath": "static/imga/gwcaa.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/wode/index",
+        "iconPath": "static/imga/wdbb.png",
+        "selectedIconPath": "./static/imga/wdaa.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你的昵称，头像，地区及性别"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap73.json"
+}

@@ -1,0 +1,121 @@
+.tou1{
+		width: 200rpx;
+		height: 200rpx;
+		 -webkit-box-pack:center;
+		 -webkit-justify-content:center;
+		         justify-content:center;
+}
+.tou1 image{
+		width: 150rpx;
+		height: 150rpx;
+		border-radius: 50%;
+}
+.tou2{
+		-webkit-flex: 3;-webkit-box-flex: 3;flex: 3;
+}
+.tou3{
+		-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+		height: 70rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		margin: 5rpx 10rpx;
+}
+.tou4{
+		-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+		-webkit-box-pack:center;
+		-webkit-justify-content:center;
+		        justify-content:center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.sa{
+		margin: 5rpx  10rpx;
+		height: 140rpx;
+}
+.di1{
+		margin: 1rpx 10rpx;
+			-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+			-webkit-box-pack:center;
+			-webkit-justify-content:center;
+			        justify-content:center;
+}
+.dingd1{
+		background-color:#FFFFFF;
+		height: 260rpx;
+		margin-left: 20rpx;
+		margin-right: 20rpx;
+		margin-top: 30rpx;
+		border-radius: 4px;
+}
+.dingd2{
+		
+			-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+}
+.dingd3{
+		
+			-webkit-flex: 3;-webkit-box-flex: 3;flex: 3;
+}
+.dingd4{
+			-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+				
+			padding-bottom: 30rpx;
+				padding-top: 10rpx;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+}
+.dingd4 image{
+		width: 60rpx;
+		height: 60rpx;
+		clear: both;
+}
+.text{
+}
+.dingd5{
+		
+		-webkit-box-pack: justify;
+		
+		-webkit-justify-content: space-between;
+		
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		margin: 0 10rpx;
+}
+page {
+background-color: #f8f8f8;
+}
+.dibux1{
+	margin-top: 30rpx;
+	height: 500rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+.dibuix2{
+		margin-left: 4rpx;
+		-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+}
+.dibuix3{
+		-webkit-flex: 5;-webkit-box-flex: 5;flex: 5;
+}
+.dibuix4{
+		-webkit-flex: 1;-webkit-box-flex: 1;flex: 1;
+}
+.buttonaa{
+border: 10rpx #FFFFFF;
+}
+

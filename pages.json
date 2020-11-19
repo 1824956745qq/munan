@@ -1,0 +1,123 @@
+{
+	 "easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+	"pages": [
+		{
+			"path": "pages/zy/index",
+			"style": {
+				"navigationBarTitleText": "木南"
+			}
+		},
+		{
+			"path": "pages/gouwuce/index",
+			"style": {
+					"navigationBarTitleText": "购物车"				
+			}
+		},
+	
+	{
+		"path": "pages/fenlei/index",
+		"style": {
+			"navigationBarTitleText": "分类"
+		}
+	},
+
+	{
+		"path": "pages/wode/index",
+		"style": {
+			"navigationBarTitleText": "个人"
+		}
+	},
+	{
+		"path": "pages/zy/shousuo/new_file",
+		"style": {
+			"navigationBarTitleText": "搜索"
+		}
+},
+	// {
+	// 	"path": "pages/wode/denglu",
+	// 	"style": {
+	// 		"navigationBarTitleText": "登陆"
+	// 	}
+	// }	
+        
+        {
+            "path" : "pages/shangpinglie/index",
+            "style" : {
+				"navigationBarTitleText": "商品"
+			}
+        }
+        ,{
+            "path" : "pages/xiangqing/index",
+            "style" : {
+					"navigationBarTitleText": "详情"
+			}
+        }
+        ,{
+            "path" : "pages/dianpu/index",
+            "style" : {
+				"navigationBarTitleText": "店铺"
+			}
+        }
+        ,{
+            "path" : "pages/cs/index",
+            "style" : {	"navigationBarTitleText": "测试"}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+
+		"backgroundColor": "#d3d3d3"
+		
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#7A7E83",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		
+		"list": [
+			{
+				"pagePath": "pages/zy/index",
+				"iconPath": "static/imga/sybb.png",
+				"selectedIconPath": "static/imga/syaa.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/fenlei/index",
+				"iconPath": "static/imga/fengleibb.png",
+				"selectedIconPath": "static/imga/fengleiaa.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/gouwuce/index",
+				"iconPath": "static/imga/gwcbb.png",
+				"selectedIconPath": "static/imga/gwcaa.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/wode/index",
+				"iconPath": "static/imga/wdbb.png",
+				"selectedIconPath": "./static/imga/wdaa.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

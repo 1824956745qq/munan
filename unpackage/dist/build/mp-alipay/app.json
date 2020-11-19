@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/zy/index",
+    "pages/fenlei/index",
+    "pages/gouwuce/index",
+    "pages/wode/index",
+    "pages/zy/shousuo/new_file"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#ffffff",
+    "backgroundColor": "#d3d3d3"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#7A7E83",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/zy/index",
+        "name": "主页",
+        "icon": "static/imga/sybb.png",
+        "activeIcon": "static/imga/syaa.png"
+      },
+      {
+        "pagePath": "pages/fenlei/index",
+        "name": "分类",
+        "icon": "static/imga/fengleibb.png",
+        "activeIcon": "static/imga/fengleiaa.png"
+      },
+      {
+        "pagePath": "pages/gouwuce/index",
+        "name": "购物车",
+        "icon": "static/imga/gwcbb.png",
+        "activeIcon": "static/imga/gwcaa.png"
+      },
+      {
+        "pagePath": "pages/wode/index",
+        "name": "我的",
+        "icon": "static/imga/wdbb.png",
+        "activeIcon": "./static/imga/wdaa.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

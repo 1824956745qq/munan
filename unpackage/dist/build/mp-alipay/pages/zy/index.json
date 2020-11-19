@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "木南",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

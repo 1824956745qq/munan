@@ -1,0 +1,136 @@
+
+page{
+				background-color: rgb(250, 250, 250);
+		 width: 100%;
+  height:100%;
+}
+	/* 大盒子 */
+.quanju{
+   	
+   	display: -webkit-box;
+   	
+   	display: -webkit-flex;
+   	
+   	display: flex;
+   	  -webkit-box-orient: vertical;
+   	  -webkit-box-direction: normal;
+   	  -webkit-flex-direction: column;
+   	          flex-direction: column;
+   	   width: 100%;
+   	    height:100%;
+}
+	/* 顶部输入框盒子 */
+.goutop{
+		padding: 15rpx 10rpx;
+
+		background-color: #FFFFFF;
+		line-height: 100rpx;
+		-webkit-box-flex: 0;
+		-webkit-flex: 0 0 100rpx;
+		        flex: 0 0 100rpx; /* 不放大不缩小固定100rpx */
+}
+	/* 下面大盒子 */
+.zhongjian{
+				-webkit-box-flex: 1;
+				-webkit-flex: 1;
+				        flex: 1;
+	position: relative;
+}
+	/* 下面右边滑动区域盒子 */
+.right-box{
+					position: absolute;
+					left: 151rpx;
+					right: 0;
+					top: 0;
+					height: 100%;
+					bottom: 0;
+}
+	/* 下面左边滑动区域盒子 */
+.main-scroll{
+				  position: absolute;
+				  left: 0;
+				  right: 0;
+				  top: 0;
+				  width: 150rpx;
+				  height: 100%;
+				  bottom: 0;
+}
+	/* 	左边滑动区域内盒子 */
+.u-tab-item {
+					height: 110rpx;
+					background: #f6f6f6;
+					box-sizing: border-box;
+					display: -webkit-box;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-align: center;
+					-webkit-align-items: center;
+					        align-items: center;
+					-webkit-box-pack: center;
+					-webkit-justify-content: center;
+					        justify-content: center;
+					font-size: 26rpx;
+					color: #444;
+					font-weight: 400;
+					line-height: 1;
+}
+	/* 	右边滑动区域内盒子 */
+.class-item {
+			margin-bottom: 30rpx;
+			background-color: #fff;
+			width: 570rpx;
+			margin: 16rpx;
+			border-radius: 8rpx;
+}
+.item-title {
+			font-size: 26rpx;
+			font-weight: bold;
+}
+.item-menu-name {
+			font-weight: normal;
+			font-size: 24rpx;
+}
+.item-container {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-wrap: wrap;
+			        flex-wrap: wrap;
+}
+.thumb-box {
+			width: 185rpx;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: column;
+			        flex-direction: column;
+			margin-top: 20rpx;
+}
+.item-menu-image {
+			width: 120rpx;
+			height: 120rpx;
+}
+.u-tab-item-active {
+			position: relative;
+			color: #000;
+			font-size: 30rpx;
+			font-weight: 600;
+			background: #fff;
+}
+.u-tab-item-active::before {
+			content: "";
+			position: absolute;
+			border-left: 4px solid #0062CC;
+			height: 32rpx;
+			left: 0;
+			top: 39rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "木南",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

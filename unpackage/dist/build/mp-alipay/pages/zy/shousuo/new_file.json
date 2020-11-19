@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "木南",
+  "usingComponents": {
+    "zy-search": "/components/zy-search/zy-search"
+  }
+}
