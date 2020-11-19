@@ -5,3 +5,4 @@
 ###### 实现微信小程序授权登陆。
 ###### 购物车商品展示。
 ###### 商品搜索
+![图片1] (https://www.xibeimn.cn/src/munanshop/zhan1shop.png)
